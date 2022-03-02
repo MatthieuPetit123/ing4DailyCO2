@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="accueil.css" />
+        <title>Transport</title>
+    </head>
+
+
+    
+
+    <body>
+
+        <header>
+            <div id="titre_principal">
+                <div id="logo">
+
+                    <img src="img/logo.png" alt="logo du site"/>
+
+                    <h1>DailyCo2</h1>
+                    <br>
+                    <li><a href="transport.html">Vous pouvez retourner à l'accueil en cliquant ici ---->  o</a></li>
+                    <p>N'oubliez pas de sauvegarder vos consommations pour obtenir un résultat complet sur la page d'accueil</p>
+                </div>  
+            </div>
+        </header>
+<br>
+        <div id="separation">
+            <img src="img/separateur.png"/>
+        </div>
+<p>                     <br></p>
+        <section>
+            <article>
+                <h1>Consommations liée aux transports</h1>
+                <p> Vous pouvez valider puis réinscrire une nouvelle consommation pour un autre transport si vous utilisez plusieurs moyens de transport dans une journée</p>
+                <img src="img/shutterstock_326572730_cherezoff.png" alt="Transports"/>
+                
+                <br>
+
+             
+                
+
+            </article>
+
+            <aside>
+
+            <form action="" method="post">
+                <table>
+                    <tr>
+                        
+                    <tr>
+                        <td>
+                            <p>Types de transport polluant : </p><select id="Plan">
+                              <option value="voiture" selected>voiture</option>
+                              <option value="camion">camion</option>
+                              <option value="moto">moto</option>
+                              <option value="scooter">scooter</option>
+                              <option value="avion">avion</option>
+                              <option value="train">train</option>
+                              <option value="bateau">bateau</option>
+                            </select>
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> Souhaitez-vous être ajouté à une liste de diffusion ? </p>
+                            <input type="checkbox" id="oui" name="oui">
+                            <label for="oui">Oui</label>
+                            <br>
+                            <input type="checkbox" id="non" name="non" checked>
+                            <label for="non">Non</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Veuillez choisir une taille de chemise : </p>
+                            <input type="radio" id="small" name="small" value="small">
+                            <label for="small">Small</label>
+                            <input type="radio" id="medium" name="medium" value="medium" >
+                            <label for="medium">Medium</label>
+                            <input type="radio" id="large" name="large" value="large">
+                            <label for="large">Large</label>
+                        </td>
+                    <tr>
+
+                        <td colspan="2"><br><input type="button" id="submit" value="Valider" onclick="valider()"></td>
+                    </tr>
+                </table>
+            </form>
+                 
+                    
+
+            </aside>
+        </section>
+        
+        <div id="banniere_image_2"></div>
+
+
+
+    </body>
+</html>

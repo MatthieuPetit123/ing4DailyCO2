@@ -1,0 +1,108 @@
+body
+{
+	background-color: rgb(112,128,144);
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	width: 900px;
+
+}
+
+header h1,section h1, nav a
+{
+	text-transform: uppercase;
+}
+
+#logo
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+#titre_principal h1
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	
+}
+
+
+header h1
+{
+    
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    
+}
+
+nav a
+{
+	border-color: black;
+	border: 3px;
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+}
+
+#separation
+{
+	border-radius: 3px;
+	border-style: ridge;
+	border: 2px;
+}
+
+#banniere_image
+{
+	margin-top: 15px;
+	border-radius: 5px;
+	background: url('img/2020-04-15.png');
+	height: 399px;
+	width: 946px;
+	margin-bottom: 20px;
+
+}
+
+#banniere_description
+{
+	margin-top : 5px;
+	margin-left: 5px;
+	color: yellow;
+
+}
+
+section
+{
+	width: 800px;
+	display: flex;
+	margin-bottom: 20px;
+	border-radius: 7px;
+	border: 7px;
+	
+	border-color: black;
+	border-style: ridge;
+}
+
+article
+{
+	text-align: center;
+}
+
+aside
+{
+	width: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 2px;
+	
+	border-color: black;
+	border-style: ridge;
+}
+
+
+
+
